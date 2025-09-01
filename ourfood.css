@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav{
+      z-index: 1;
+      margin: 1em 0em;
+      font-size: 1.5em;
+      text-align: center;
+      position: absolute;
+      border-radius: 10px;
+      width: 95%;
+      height: 1em;
+      justify-content: space-between;
+   }
+  
+   a:hover{
+    color:aliceblue;
+   }
+  
+   ul li{
+      list-style: none;
+      display: inline-block;               
+   }
+  ul li  a{
+      font-size: 1.1em;
+      margin: 2em 0em;
+      text-decoration: none;
+      color: #367E18;
+      padding: 1em 3em;
+      font-weight: bold;
+    }
+    .image{
+      position: absolute;
+      margin: 4em 3em ;
+      width: 50em;
+      height: auto;
+    }
+    .img1{
+        height: auto;
+        width: 20em;
+        border-radius: 20px;
+        margin: 12em 15em;
+        position: absolute;
+      }
+
+      .section1, .section3, .section5{
+        width: 100%;
+        height: 100vh;
+        background-color: #E0D8B0;
+      }
+       .section, .section2, .section4{
+        width: 100%;
+        height: 100vh;
+        background-color: #E0D8B0;
+    
+      }
+      .btn1{
+        border-radius: 10px;
+        background-color: orange;
+        width: 10em;
+        height: 30px;
+        top: 50%; 
+        align-items: center; 
+        position: absolute;
+        margin: 5em;
+      }
+      a{
+        text-decoration: none;
+        color: white;
+      }
+    
+      p{
+        margin: 1em;
+        align-items: center;
+    
+      }
+    
+      .text1{
+        padding: 5em;
+        text-align: center;
+        margin: 10em;
+        background-color: #CA7B42;
+        height: 20em;
+        width: 30em;
+        border-radius: 1em;
+        color: #ECE8DD;
+        float: right;
+      }
+       .text2 {
+        padding: 5em;
+        text-align: center;
+        margin: 10em;
+        background-color: #CA7B42;
+        height: 20em;
+        width: 30em;
+        border-radius: 1em;
+        color: #ECE8DD;
+        float: right;
+      }
+      .text3 {
+        padding: 5em;
+        text-align: center;
+        margin: 10em;
+        background-color: #CA7B42;
+        height: 20em;
+        width: 30em;
+        border-radius: 1em;
+        color: #ECE8DD;
+        float: right;
+      }
+      .text4 {
+        padding: 5em;
+        text-align: center;
+        margin: 10em;
+        background-color: #CA7B42;
+        height: 20em;
+        width: 30em;
+        border-radius: 1em;
+        color: #ECE8DD;
+        float: right;
+      }
+      .text5 {
+        padding: 5em;
+        text-align: center;
+        margin: 10em;
+        background-color: #CA7B42;
+        height: 20em;
+        width: 30em;
+        border-radius: 1em;
+        color: #ECE8DD;
+        float: right;
+      }  

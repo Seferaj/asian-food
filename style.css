@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+  /*Container1*/
+
+nav{    z-index: 1;
+    margin: 1em 0em;
+    font-size: 1.8em;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 2em;
+    justify-content: space-between;
+ }
+
+ a:hover{
+  color:aliceblue;
+ }
+
+ ul li{
+  opacity: 1;
+    list-style: none;
+    display: inline-block;               
+ }
+ul li  a{
+  opacity: 1;
+    font-size: 1.1em;
+    margin: 2em 0em;
+    text-decoration: none;
+    color: white;
+    padding: 1em 3em;
+    font-weight: bold;
+  }
+
+  video{
+    opacity: .9;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .section1{
+    width: 100%;
+    height: 100vh;
+    background-color: #E0D8B0;
+  }
+
+
+  .section3, .section5{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #E0D8B0;
+  }
+   .section2, .section4{
+    width: 100%;
+    height: 100vh;
+    background-color: #E0D8B0;
+
+  }
+
+  .container1{
+    position: relative;
+    top: 20%;
+  }
+
+  .box1, .box2, .box3{
+    width: 4.5em;
+    height: 10em;
+    display: inline-flex;
+    margin: 7em;
+
+  }
+  .image1, .image2, .image3{
+    height: 15em;
+    width: 15em;
+    display: inline-flex;
+    margin: 0em 20em;
+  }
+
+  .img1{
+    position: absolute;
+    width: 20em;
+    height: 35em;
+    border-radius: 1em;
+    float: left;
+    margin: 5em 20em;
+  }
+
+  .heading1{
+    margin: 1em;
+  }
+
+  .text1{
+    position: absolute;
+    text-align: center;
+    float: right;
+    color: #8D7B68;
+    margin:  3em 35em;
+    width: 20em;
+    height: 50em;
+    font-size: 1.5em;
+  }
+
+
+  .text2{
+    width: 20em;
+    height: 50em;
+    color: black;
+    display: block;
+    font-size: 1.3em;
+    float: left;
+    margin: 1em 3em;
+  }
+  .text3{
+    width: 20em;
+    height: 50em;
+    color: black;
+    display: block;
+    font-size: 1.3em;
+    float: left;
+    margin: 2em -1em;
+  }
+  .text4{
+    width: 20em;
+    height: 50em;
+    color: black;
+    display: block;
+    font-size: 1.3em;
+    float: left;
+    margin: 2em 4em;
+  }
+
+
+    /*Section2*/
+
+  .container2{
+position: absolute;
+width: 60em;
+height: 40em;
+  }
+  .img5{
+    position: absolute;
+    width: 20em;
+    height: 30em;
+    right: 10px;
+    margin: 0em 0;
+    border-radius: 1em;
+  }
+  .text5{
+    width: 20em;
+    height: 20em;
+    font-size: 1.5em;
+    color: black;
+    position: absolute;
+    left: 10px;
+    margin: 2em 0em;
+    text-align: center;
+  }
+  .btn1{
+    position: absolute;
+    margin: 35em 14em;
+    border-radius: 1em;
+    width: 10em;
+    height: 3em;
+  }
+  a{
+    text-decoration: none;
+    color: #8D7B68;
+  }
+
+
+  /*Section3*/
+  
+  
+  .img2{
+    position: absolute;
+    width: 22em;
+    height: 12em;
+    margin:9em 15em;
+  }
+  .img3{
+    position: absolute;
+    width: 13em;
+    height: 17em;
+    margin:22em 13em;
+  }
+  .img4{
+    position: absolute;
+    width: 13em;
+    height: 17em;
+    margin:22em 27em;
+  }
+  .location{
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    margin: 10em 48em;
+  }
+  .line{
+    margin: 5em 45em;
+    height: 35em;
+    width: 10px;
+    border-radius: 1em;
+    background-color: white;
+    position: absolute;
+  }
+
+    /*Section*/
+  .container3{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 40em;
+    height: 30em;
+    border-radius: 1em;
+  }
+
+  form h3{
+    color: white;
+    font-weight: 800;
+    margin-top: 40px;
+    padding: 1em;
+    font-size: 2em;
+    text-align: center;
+  }
+
+
+  form input{
+    height: 25px;
+    margin: 5em 0;
+
+  }
+  form input, form textarea{
+    width: 30em;
+    display: block;
+    border: 0;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: white;
+    font-size: 16px;
+  }
+  form textarea{
+    height: 5em;
+  }
+  form .btn2{
+    background-color: white;
+    border-radius: 1em;
+  }
